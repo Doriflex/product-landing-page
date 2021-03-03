@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+                       /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <img src="https://image.freepik.com/vector-gratis/ilustracion-vector-plantilla-logotipo-taco_6427-331.jpg" id="header-img"><br><br><br><br>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#About">About</a></li>
+                    <li><a class="nav-link" href="#how-to-make-tacos">How to make tacos</a></li>
+                    <li><a class="nav-link" href="#register">Register</a></li>
+                  </ul>
+            </nav>
+        </header>
+            <section id="About">
+                <h1>Tacos al pastor</h1>
+                   <p>Tacos al pastor, de adobada or trompo are the most popular variety of tacos in most of Mexico,<br> originating in the City of Puebla.<br> In July 2019 they were chosen as the best food in the world by the site of gastronomic guide Taste Atlas.</p>
+            </section><br><br><br>
+            <section id="how-to-make-tacos">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JOvLXKU6mB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section><br><br><br>
+            <section id="register">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="example@example.com">
+                    <input id="submit" type="submit" name="submit">
+                </form>
+            </section>
+        </header>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
